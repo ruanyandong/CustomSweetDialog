@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.view.View;
-
 import cn.pedant.SweetAlert.SweetAlertDialog;
 
 public class SampleActivity extends Activity implements View.OnClickListener {
@@ -15,6 +14,7 @@ public class SampleActivity extends Activity implements View.OnClickListener {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.sample_activity);
+
         findViewById(R.id.basic_test).setOnClickListener(this);
         findViewById(R.id.under_text_test).setOnClickListener(this);
         findViewById(R.id.error_text_test).setOnClickListener(this);
